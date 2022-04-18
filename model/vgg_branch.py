@@ -8,7 +8,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import sys
 sys.path.insert(0, ".")
-from utils.initialize import *
+from util.initialize import *
 
 class VGG(nn.Module):
     def __init__(self, im_size, num_classes, init_weights = "kaimingNormal"):
