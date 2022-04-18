@@ -11,7 +11,7 @@ from torchvision import transforms
 from datetime import datetime
 from tensorboardX import SummaryWriter 
 from train import *
-from utils.cifar100 import *
+from util.cifar100 import *
 import torchvision
 
 def parse_param():
